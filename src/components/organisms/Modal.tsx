@@ -51,7 +51,7 @@ export const BasicModal: FC<ModalProps> = memo(
 					<DialogContent style={{ overflow: 'hidden' }}>
 						<DialogContentText>Update Status</DialogContentText>
 						<Filter register={register} />
-						<DialogContentText>Trial Access List</DialogContentText>
+						<DialogContentText>Trail Access List</DialogContentText>
 						<TrailList
 							getTrailListRes={getTrailListRes}
 							id={selectedLift?.id}

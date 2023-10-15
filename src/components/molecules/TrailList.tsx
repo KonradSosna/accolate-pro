@@ -31,21 +31,21 @@ export const TrailList: FC<TrailListProps> = ({ getTrailListRes, id }) => {
 				}}
 			>
 				<List>
-					{trailsFilttered?.map((trial) => (
+					{trailsFilttered?.map((trail) => (
 						<Grid
 							container
-							key={trial.id}
+							key={trail.id}
 							style={{ marginBottom: '20px', border: '1px solid #000000' }}
 						>
 							<Grid item xs={6}>
 								<ListItem style={{ textAlign: 'center' }}>
-									<ListItemText>{trial.name}</ListItemText>
+									<ListItemText>{trail.name}</ListItemText>
 								</ListItem>
 							</Grid>
 
 							<Grid item xs={6}>
 								<ListItem style={{ textAlign: 'center', height: '100%' }}>
-									<ListItemText>{trial.status}</ListItemText>
+									<ListItemText>{trail.status}</ListItemText>
 								</ListItem>
 							</Grid>
 						</Grid>
